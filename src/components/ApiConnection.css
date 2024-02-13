@@ -1,0 +1,42 @@
+.container{
+    background-color: antiquewhite;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+  }
+  
+  .cnty-list{
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 5px;
+  
+  }
+
+
+  .cnty-list:hover{
+    background-color: aquamarine;
+  }
+
+
+  .flag-container{
+    position: fixed;
+    inset: 0px 0px 0px 0px;
+    background-color: rgb(71, 69, 69);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    color: white;
+
+  }
+  
+  .heading{
+    text-align: center;
+    width: 100vw;
+    font-size: 30px;
+  }
